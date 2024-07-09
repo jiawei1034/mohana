@@ -76,7 +76,7 @@ nav ul li a {
 
 .sub-menu ul li a {
     text-decoration: none;
-    color: black;
+    color: #4b4b4b;
     font-weight: bold;
 }
 
@@ -243,4 +243,29 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     visibility: visible;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.privacy-policy a {
+    text-decoration: none;
+    color: #000;
 }
