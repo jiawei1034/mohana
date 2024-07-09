@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+}
+
+.top-bar {
+    background-color: #4A90E2;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+.top-bar span {
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 33%;
+    text-decoration: underline;
+}
+
+.donate-button {
+    background-color: #2DD95F;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    background-color: #ffffff;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-right: 1%;
+}
+
+.sub-menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.sub-menu ul li {
+    margin: 0 15px;
+    margin-top: 7px;
+}
+
+.sub-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    background-color: #2DD95F;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.container{
+    margin: 0 auto;
+    height:auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0.2, 0, 0.2);
+}
+
+.content p {
+    color:black;
+    justify-content: center;
+    padding:30px;
+    display:block;
+    width:50%;
+    text-align: center;
+    position:relative;
+}
+
+.row {
+    display: flex;
+    gap: 60px;
+    margin-top:-30px;
+    margin-bottom:20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.about .card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    flex: 1;
+}
+
+.about .card img{
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin: 0; 
+    padding: 0; 
+    border: none;
+    object-fit: cover;
+}
+
+.MnV h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.MnV .content p {
+    width:45%;
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:50px;
+    margin-left:28%;
+    margin-top: -20px;
+}
+
+.WWD h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.WWD h4{
+    width:50%;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 20px;
+    overflow:hidden;
+}
+
+.WWD p {
+    width:45%;
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:50px;
+    margin-left:30%;
+    margin-top: -40px;
+}
+
+.MAU h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+.MAU .card {
+    flex:1;
+    margin: 0;
+    padding: 0;
+    width: 300px; 
+    max-width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    position:relative;
+    box-sizing: border-box;
+}
+
+.MAU .card img{
+    max-width: 100%;
+    height: 220px;
+    display:block;
+}
+
+.MAU .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.MAU .card-content {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.MAU .card h3 {
+    margin: 0; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.MAU .card p {
+    margin: 0; 
+    padding: 10px; 
+    text-align: left;
+}
+
+.arrow {
+    background-color: #e0f7da;
+    color: #388e3c;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
